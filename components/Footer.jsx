@@ -1,0 +1,35 @@
+import React from "react"
+
+export default function Footer() {
+  return (
+      <footer className="container">
+          <div className="footer-links">
+            <a 
+              href="https://www.linkedin.com/in/angelika-deocampo/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-link"
+            >LinkedIn</a>
+            
+            <a 
+              href="https://docs.google.com/document/d/1LJGlaBkem6JE7eIAoG1i5g3kAV1uh7k3LmNCN0Qvspc/edit?usp=sharing" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-link"
+            >Resume</a>
+            <a 
+              href="https://github.com/bbduckpls"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-link"
+            >Github</a>
+            <a 
+              href="mailto:angelikajdeo@gmail.com"
+              rel="noopener noreferrer"
+              className="nav-link"
+            >Email</a>
+          </div>
+          <p>&#169; 2025 Angelika Deocampo</p>
+      </footer>
+    )
+}
