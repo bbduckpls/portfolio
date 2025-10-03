@@ -114,10 +114,6 @@ section {
     color: #999515;
 }
 
-.add-margin {
-    margin-top: 2em;
-}
-
 /* HEADER */
 
 header {
@@ -377,6 +373,7 @@ section.mini-about > p {
 }
 
 .link-btn {
+    display: inline-block;
     border: 2px solid #D6DDE6;
     color: #D6DDE6;
     border-radius: 30px;
