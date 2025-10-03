@@ -493,7 +493,7 @@ footer > p {
 
 @media (min-width: 1200px) {
     section.title {
-        height: 80vh;
+        padding: 10em;
     }
 
     section.title > h2 {
