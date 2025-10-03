@@ -492,8 +492,12 @@ footer > p {
 
 
 @media (min-width: 1200px) {
+    section.title {
+        height: 80vh;
+    }
+
     section.title > h2 {
-       font-size: 5rem; 
+       font-size: 4rem; 
     }
 
     .card-holder {
