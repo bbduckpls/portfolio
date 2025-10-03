@@ -171,6 +171,7 @@ nav {
     grid-auto-rows: 1fr;
     align-items: stretch;
     flex-direction: column;
+    margin-bottom: 2em;
 }
 
 .card-holder > a {
