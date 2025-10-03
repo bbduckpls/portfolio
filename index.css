@@ -114,6 +114,10 @@ section {
     color: #999515;
 }
 
+.add-margin {
+    margin-top: 2em;
+}
+
 /* HEADER */
 
 header {
@@ -488,6 +492,10 @@ footer > p {
 
 
 @media (min-width: 1200px) {
+    h2 {
+       font-size: 3rem; 
+    }
+
     .card-holder {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
