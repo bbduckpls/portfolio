@@ -1,6 +1,6 @@
 import React from "react"
 import { projects } from "../data"
-import { VscTools } from "react-icons/vsc";
+import { Wrench } from "lucide-react";
 
 export default function ProjectCards({ isPage }) {
     
@@ -24,7 +24,7 @@ export default function ProjectCards({ isPage }) {
                         {isPage && <p>{desc}</p>}
                         {isPage && 
                             <div className="tool-div">
-                                <VscTools className="nav-icon"/>
+                                <Wrench className="nav-icon"/>
                                 <p className="tool">{toolList}</p>
                             </div>
                         }
