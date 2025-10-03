@@ -1,6 +1,6 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import { LuAlignJustify } from "react-icons/lu";
+import { Menu } from "lucide-react";
 import Sidebar from "./Sidebar"
 
 export default function Header() {
@@ -38,7 +38,7 @@ export default function Header() {
             className={({ isActive }) => (`nav-link ${isActive ? 'active-link' : ''}`)}
           >Contact</NavLink>
         </nav>
-        <LuAlignJustify className="nav-icon burger" onClick={toggleSidebar}/>
+        <Menu className="nav-icon burger" onClick={toggleSidebar}/>
         <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
     </header>
   )

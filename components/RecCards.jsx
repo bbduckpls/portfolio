@@ -1,5 +1,5 @@
 import React from "react"
-import { LuCircleUserRound } from "react-icons/lu";
+import { CircleUserRound } from "lucide-react";
 import { recs } from "../data"
 
 export default function RecCards() {
@@ -10,7 +10,7 @@ export default function RecCards() {
       return (
         <div className="rec border container" key={index}>
             <div className="rec-top">
-                <LuCircleUserRound className="user-icon"/>
+                <CircleUserRound className="user-icon"/>
                 <div className="rec-title">
                     <h4>{name}</h4>
                     <p>{title}</p>

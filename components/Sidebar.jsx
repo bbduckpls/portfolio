@@ -1,6 +1,6 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import { LuX } from "react-icons/lu";
+import { X } from "lucide-react";
 
 export default function Sidebar({ isOpen, toggleSidebar }) {
     return (
