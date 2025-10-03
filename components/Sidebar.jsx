@@ -6,7 +6,7 @@ export default function Sidebar({ isOpen, toggleSidebar }) {
     return (
         <div className={`sidebar ${isOpen ? 'active' : ''}`}>
             <div className="side-header divider">
-                <LuX onClick={toggleSidebar} className="nav-icon x"/>
+                <X onClick={toggleSidebar} className="nav-icon x"/>
             </div>
             <nav>
                 <NavLink 
