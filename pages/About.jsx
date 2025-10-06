@@ -57,7 +57,13 @@ export default function About() {
           className="link-btn" 
           target="_blank" 
           rel="noopener noreferrer"
-        >Notion Page</a>
+        >Notion About Page</a>
+        <a 
+          href="https://www.notion.so/angelikadeocampo/Edits-f3c7e3acf7674784a95a3f6625199f1d" 
+          className="link-btn" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >Video Edits</a>
         <a
           href="https://www.youtube.com/@arkadedance"
           className="link-btn"
