@@ -1,7 +1,7 @@
 export const projects = [
     {
         title: "Basketball Score Tracker",
-        desc: "An early solo project to manually track basketball stats. Now developed to utilize React!",
+        desc: "A web app for tracking basketball game scores manually. Previously made through JavaScript, but now React-based!",
         image: "/assets/dev/basketball.png",
         focus: "Frontend",
         tags: ["Web App", "Responsive", "Prop-drilling", "Utility Functions"],
@@ -10,7 +10,7 @@ export const projects = [
     },
     {
         title: "Quizzical",
-        desc: "A two-screen web app that asseses general knowledge with questions pulled from the OTDB API",
+        desc: "A two-screen web app that assesses general knowledge through questions pulled from an API",
         image: "/assets/dev/quizzical.png",
         focus: "Frontend",
         tags: ["Web App", "API", "Responsive", "Conditional Rendering", "useState", "useEffect"],
@@ -19,7 +19,7 @@ export const projects = [
     },
     {
         title: "Assembly Endgame",
-        desc: "A puzzle game where you have to save programming languages from disappearing!",
+        desc: "A puzzle game where you have to guess the word before you erase all programming languages!",
         image: "/assets/dev/assembly.png",
         focus: "Frontend",
         tags: ["Web App", "clsx", "useState", "useEffect", "Utility Functions"],
