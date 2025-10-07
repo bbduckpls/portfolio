@@ -12,7 +12,7 @@ export default function Footer() {
             >LinkedIn</a>
             
             <a 
-              href="https://docs.google.com/document/d/1LJGlaBkem6JE7eIAoG1i5g3kAV1uh7k3LmNCN0Qvspc/edit?usp=sharing" 
+              href="https://docs.google.com/document/d/1ADpRPM6CJ2Iz37CB3EUJELVtVDvLRIZrY4JTB_M4cJA/edit?usp=sharing" 
               target="_blank"
               rel="noopener noreferrer"
               className="nav-link"
