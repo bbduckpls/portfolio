@@ -33,7 +33,7 @@ export const projects = [
         focus: "UX/UI",
         tags: ["Mobile App", "Logo Design", "AI", "Design Sprint", "Agile", "React Native"],
         tools: ["Figma", "Adobe Photoshop", "Cursor", "Visual Studio Code", "Git"],
-        link: "https://www.notion.so/angelikadeocampo/Personal-Assistant-App-1bd3f284996e80b8997bdf77a3755692?source=copy_link"
+        link: "https://www.notion.so/angelikadeocampo/Jenni-App-1bd3f284996e80b8997bdf77a3755692?source=copy_link"
     },
     {
         title: "Oregon.gov Unemployment Redesign",
