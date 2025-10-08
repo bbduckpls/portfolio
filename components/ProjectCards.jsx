@@ -4,17 +4,17 @@ import { Wrench } from "lucide-react";
 
 export default function ProjectCards({ isPage }) {
     
-    return projects.map((proj, index) => {
-        const { tags, tools, image, title, focus, link, desc } = proj
+    return projects.map(proj => {
+        const { id, tags, tools, image, title, focus, link, desc } = proj
         
-        const tagArr = tags.map((tag, index) => {
-            return <p key={index}>{tag}</p>
+        const tagArr = tags.map(tag => {
+            return <p key={id}>{tag}</p>
         })
         
         const toolList = tools.join(", ")
         
         return (
-            <a href={link} target="_blank" rel="noopener noreferrer" key={index}>
+            <a href={link} target="_blank" rel="noopener noreferrer" key={id}>
                 <div className="project container border">
                     <div className="project-top">
                         <img src={image} className="project-img"/>

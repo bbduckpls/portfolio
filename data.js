@@ -1,5 +1,6 @@
 export const projects = [
     {
+        id: 1,
         title: "Basketball Score Tracker",
         desc: "A web app for tracking basketball game scores manually. Previously made through JavaScript, but now React-based!",
         image: "/assets/dev/basketball.png",
@@ -9,6 +10,7 @@ export const projects = [
         link: "https://angelikadeocampo.notion.site/Basketball-Score-Tracker-1343f284996e80bb8751f8cdf0223a54?source=copy_link"
     },
     {
+        id: 2,
         title: "Quizzical",
         desc: "A two-screen web app that assesses general knowledge through questions pulled from an API",
         image: "/assets/dev/quizzical.png",
@@ -18,6 +20,7 @@ export const projects = [
         link: "https://angelikadeocampo.notion.site/Quizzical-App-24f3f284996e8059a574cecc95ae91f6?source=copy_link"
     },
     {
+        id: 3,
         title: "Assembly Endgame",
         desc: "A puzzle game where you have to guess the word before you erase all programming languages!",
         image: "/assets/dev/assembly.png",
@@ -27,6 +30,7 @@ export const projects = [
         link: "https://angelikadeocampo.notion.site/Assembly-Endgame-24f3f284996e80788547f318e119297f?source=copy_link"
     },
     {
+        id: 4,
         title: "Personal Assistant App",
         desc: "AI-supported board creation app that personalizes users experiences based on their style, taste, and location preferences",
         image: "/assets/uxui/jenni.png",
@@ -36,6 +40,7 @@ export const projects = [
         link: "https://www.notion.so/angelikadeocampo/Jenni-App-1bd3f284996e80b8997bdf77a3755692?source=copy_link"
     },
     {
+        id: 5,
         title: "Oregon.gov Unemployment Redesign",
         desc: "Improving a government site to follow modern design practices and boost familiarity in desktop and mobile views",
         image: "/assets/uxui/oregon.gov.png",
@@ -45,6 +50,7 @@ export const projects = [
         link: "https://angelikadeocampo.notion.site/Oregon-gov-Unemployment-Redesign-5e75e012b92b463684ff082bfc02eeb1?source=copy_link"
     },
     {
+        id: 6,
         title: "Stutor - Tutor Scheduling App",
         desc: "Connecting tutors and students after the in-person disconnect from COVID-19",
         image: "/assets/uxui/stutor.png",
