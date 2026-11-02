@@ -1,4 +1,5 @@
 import React from 'react';
+import { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import AppLayout from "./AppLayout"
@@ -9,7 +10,7 @@ import Contact from "./pages/Contact"
 
 function App() {
     return (
-      <>
+      <StrictMode>
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<AppLayout />}>
@@ -20,7 +21,7 @@ function App() {
             </Route>
           </Routes>
         </BrowserRouter>
-      </>
+      </StrictMode>
     )
   }
 
